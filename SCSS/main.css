@@ -72,7 +72,7 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: "Montserrat", sans-serif;
+  --bs-font-sans-serif: "Poppins", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -11980,4 +11980,34 @@ footer.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+p {
+  font-family: "Poppins", serif;
+  font-size: 18px;
+}
+
+.FoodScene {
+  position: relative;
+}
+.FoodScene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/FoodScene.jpg);
+  background-size: cover;
+  filter: brightness(0.3);
+}
+.FoodScene * {
+  position: relative;
+}
+.FoodScene .FoodScene-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
