@@ -21,6 +21,7 @@ footer.footer{
 p{
     font-family: $font-family-serif;
     font-size: 18px;
+    
 }
 
 .FoodScene{
@@ -47,4 +48,7 @@ p{
         align-items: center;
         justify-content: center;
     }
+}
+.text-justify{
+    text-align: justify;
 }
