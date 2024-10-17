@@ -11989,6 +11989,7 @@ p {
 
 .FoodScene {
   position: relative;
+  margin-bottom: 15px;
 }
 .FoodScene::before {
   content: "";
@@ -12035,4 +12036,8 @@ p {
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: all 0.3s;
+}
+
+.form-label {
+  color: #906427;
 }/*# sourceMappingURL=main.css.map */
