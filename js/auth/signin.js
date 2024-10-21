@@ -9,7 +9,12 @@ function checkCredentials(){
     
     if(mailInput.value == "test@mail.com" && passwordInput.value == "123"){
         alert("connecté");
+            //Recup le vrai token
+        const token= "dgdfgdfdgtsdfgql:knfqlkdsf,qdljnfqmlkdsf,lkqdfnsf,";
+        setToken(token);
+        //Placer ce token en cookie
        
+        setCookie(RoleCookieName, "client", 7);
         window.location.replace("/");
     }
     else{
